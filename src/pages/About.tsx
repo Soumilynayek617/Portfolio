@@ -24,7 +24,7 @@ const About = () => (
             <h2 className="section-title">
               The Person Behind the <span className="gradient-text">Portfolio</span>
             </h2>
-            <p className="section-subtitle">Engineer by degree, product manager by passion, business developer by choice.</p>
+            <p className="section-subtitle">Engineer by degree, Product Manager by passion, Business Developer by choice.</p>
           </div>
         </AnimatedSection>
       </div>

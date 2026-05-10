@@ -12,7 +12,7 @@ export const personal = {
   location: "IIT Kharagpur, West Bengal, India",
   linkedin: "https://www.linkedin.com/in/soumily-nayek-1a57252b6/",
   github: "https://github.com/Soumilynayek617",
-  bio: `I'm a B.Tech student in Mining Engineering at IIT Kharagpur, with strong interests in product management and business development. I enjoy solving real-world problems by combining technical skills with user-centric thinking and data-driven strategies. 
+  bio: `I'm a B.Tech student in Mining Engineering at IIT Kharagpur, with strong interests in Product Management and Business Development. I enjoy solving real-world problems by combining technical skills with user-centric thinking and data-driven strategies. 
 My experience includes conducting product research, optimizing user journeys, building AI-powered automation, and geospatial data analysis. These roles have strengthened my skills in Python, market analysis, and product strategy. 
 Skilled in C++, Python, JavaScript, and React.js, I'm driven to apply technology and strategy to create meaningful impact.`,
   resumeUrl: "/CV.pdf",
@@ -27,7 +27,7 @@ export const stats = [
 
 export const education = [
   {
-    degree: "B.Tech.(Hons.) in Mining Engineering",
+    degree: "B. Tech. (Hons.) in Mining Engineering",
     institute: "Indian Institute of Technology Kharagpur",
     year: "2023 – 2027",
     highlight: true,
@@ -80,9 +80,7 @@ export const whatIDo = [
 ];
 
 export const traits = [
-  "Product Strategist", "Problem Solver", "Team Leader", "Data Driven",
-  "User Centric", "Adaptable", "Fast Learner", "Collaborative",
-  "Initiative Taker", "Tech Enthusiast",
+  "Product Strategist", "Problem Solver","Competitor Research","PRD","Wireframing", "Data Driven", "User Analyst", "Market Analysis", "Initiative Taker", "Tech Enthusiast",
 ];
 
 // ============================================================
@@ -109,7 +107,7 @@ export const internships = [
   },
   {
     id: 2,
-    company: "Telemedicine Research — IIT KGP",
+    company: "Telemedicine Research — Prof. Shaili Singh, VGSoM, IIT KGP",
     role: "Research Intern",
     duration: "May 2025 – Jun 2025",
     type: "Research & Data",
@@ -145,7 +143,7 @@ export const internships = [
   },
   {
     id: 4,
-    company: "IIT KGP — Dept. of Mining Engineering",
+    company: "IIT KGP — Prof. Rakesh Kumar, Dept. of Mining Engineering",
     role: "Research Intern — InSAR Land Subsidence",
     duration: "May 2025 – Present",
     type: "Research",
@@ -400,7 +398,7 @@ export const competitions = [
     title: "Axis Bank Growth Challenge",
     event: "Chief Strategy Officer Case Competition",
     date: "May 2025",
-    rank: "Participant",
+    rank: "2nd Round",
     rankType: "participant" as const,
     color: "from-red-400 to-pink-500",
     accentColor: "#EF4444",

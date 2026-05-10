@@ -7,6 +7,13 @@ import { internships } from '../data/portfolio';
 const Internships = () => {
   const [active, setActive] = useState<number | null>(null);
 
+  const sortedInternships = internships.slice().sort((a, b) => {
+    const aIsPM = a.type === 'Product Management';
+    const bIsPM = b.type === 'Product Management';
+    if (aIsPM === bIsPM) return 0;
+    return aIsPM ? -1 : 1;
+  });
+
   return (
     <div className="page-wrapper grid-bg">
       <div className="blob blob-blue"   style={{ width: 500, height: 500, top: '5%',  left: '-10%' }} />
@@ -33,7 +40,7 @@ const Internships = () => {
               background: 'linear-gradient(to bottom, var(--accent-blue), var(--accent-violet), transparent)',
             }} />
 
-            {internships.map((item, i) => (
+            {sortedInternships.map((item, i) => (
               <AnimatedSection key={item.id} delay={i * 0.12} direction="left">
                 <div style={{ display: 'flex', gap: 32, marginBottom: 40, paddingLeft: 80, position: 'relative' }}>
 
