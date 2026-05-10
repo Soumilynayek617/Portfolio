@@ -141,10 +141,12 @@ const About = () => (
                 <div className="glass glass-hover" style={{ flex: 1, padding: '24px 28px' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 8, marginBottom: 8 }}>
                     <h3 style={{ fontFamily: 'Space Grotesk', fontSize: '1.05rem', fontWeight: 700 }}>{edu.degree}</h3>
-                    <span style={{
-                      fontFamily: 'Space Grotesk', fontSize: '0.8rem', color: 'white', fontWeight: 600,
-                      background: 'linear-gradient(135deg, #3B82F6, #8B5CF6)', padding: '4px 14px', borderRadius: 50,
-                    }}>{edu.score}</span>
+                    {edu.highlight && (
+                      <span style={{
+                        fontFamily: 'Space Grotesk', fontSize: '0.8rem', color: 'white', fontWeight: 600,
+                        background: 'linear-gradient(135deg, #3B82F6, #8B5CF6)', padding: '4px 14px', borderRadius: 50,
+                      }}>Featured</span>
+                    )}
                   </div>
                   <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: 4 }}>{edu.institute}</p>
                   <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem' }}>{edu.year}</p>

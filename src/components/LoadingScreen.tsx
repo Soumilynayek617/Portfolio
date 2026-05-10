@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const LoadingScreen = ({ onDone }: { onDone: () => void }) => {
   const [progress, setProgress] = useState(0);
