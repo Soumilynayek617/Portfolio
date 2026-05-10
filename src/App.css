@@ -1,0 +1,18 @@
+/* App.css — Additional micro-styles */
+
+/* Ensure no default Vite styles bleed in */
+#root {
+  min-height: 100vh;
+}
+
+/* Page padding for navbar offset */
+.page-wrapper {
+  padding-top: 0;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .glass {
+    border-radius: 12px;
+  }
+}
